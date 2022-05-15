@@ -1,0 +1,49 @@
+
+
+server:
+  port: 8081
+  servlet:
+    context-path: /test
+
+spring:
+  main:
+    banner-mode: CONSOLE
+
+#单值格式
+country: china
+
+likes:
+  - music
+  - sleep
+  - play
+
+users:
+  - name: 张三
+    age: 18
+  - name: lisi
+    age: 80
+
+user1: [{name: haha,age: 29},{name: ll,age: 19},{name: ly,age: 229}]
+
+dataDir: /Users/sll
+# path是个关键字
+path1: ${dataDir}/temp
+# 将值用双引号包裹，里面的转义字符会起作用，否则是不会起作用的
+path2: "${dataDir}/temp \t1 \t2"
+
+enterprise:
+  name: ly
+  age: 18
+  subject:
+    - java
+    - 前端
+    - 大数据
+
+datasource:
+  driver: com.mysql.jdbc.Driver
+  url: jdbc:mysql://localhost/dp
+  username: root
+  password: 123456
+
+
+

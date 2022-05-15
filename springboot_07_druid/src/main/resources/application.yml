@@ -1,0 +1,10 @@
+# 应用名称
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://82.157.66.105/dp_test?serverTimezone=UTC
+      username: root
+      password: 123456
+
+

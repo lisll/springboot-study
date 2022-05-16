@@ -12,13 +12,13 @@
         <module name="springboot_05_mybatis" />
         <module name="springboot_01_01_quickstart" />
         <module name="springboot_07_druid" />
+        <module name="springboot_08_ssmp" />
         <module name="springboot_02_base_configuration" />
         <module name="springboot_06_mybatis_plus" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springboot_01_xxxxxxxx" target="1.8" />
-      <module name="springboot_08_ssmp" target="1.8" />
       <module name="springboot_plus" target="1.8" />
       <module name="webservice-sal" target="17" />
     </bytecodeTargetLevel>
